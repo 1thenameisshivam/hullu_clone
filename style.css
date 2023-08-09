@@ -1042,6 +1042,7 @@ nav{
         margin: 0px auto;
         padding-top: 25px;
         position: relative;
+        display:unset;
     }
     .uprs h4{
         height: 80px;
