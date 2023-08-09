@@ -1,0 +1,1088 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    /* background-color: black; */
+}
+.main{
+    width: 100%;
+    /* background-color: black; */
+    height: 100vh;
+}
+.ptt1{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+}
+.pt1{
+    background-image:linear-gradient(to right, rgba(0,0,0,0.6)8%,rgba(0,0,0,0.1)70%),url(https://cnbl-cdn.bamgrid.com/assets/62ed936344e6ffbac48c896b2bd327fe171521dd941b6ddc8402e2eae50116fc/original);
+    width: 100%;
+    height: 89vh;
+    background-size: cover;
+}
+nav svg{
+    fill: #1ce783;
+    height: 50px;
+}
+.signbtn{
+   background: transparent;
+   color: rgb(162, 160, 160);
+   border: none;
+   font-size: 16px;
+   font-weight: 700;
+   width: 80px;
+   height: 40px;
+   transition: 0.5s;
+}
+.signbtn:hover{
+    width: 80px;
+    border: none;
+    border-radius: 6px;
+    background-color: #323843;
+    height: 40px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    padding-left: 9vw;
+    padding-right: 9vw;
+}
+.mid1{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 80px;
+    text-align: center;
+}
+.mleft p{
+    color: #1ce783;
+    font-size: 13px;
+    font-weight: 700;
+    padding-bottom: 35px;
+}
+.mleft img{
+  width: 185px;
+}
+.mleft .mplan{
+    color:white;
+    font-size: 25px;
+    font-weight: 700;
+    width: 300px;
+}
+.mdbtn{
+    color: black;
+    background-color: #1ce783;
+    width: 280px;
+    font-size: 15px;
+    font-weight: 500;
+    height: 40px;
+    border-radius: 3px;
+    border: none;
+    transition: 0.6s;
+}
+.mdbtn:hover{
+    background-color:#1ce781b8;
+}
+.mdbtn2{
+    color: black;
+    background-color: #1ce783;
+    width: 280px;
+    font-size: 15px;
+    font-weight: 500;
+    height: 40px;
+    border-radius: 3px;
+    border: none;
+    margin-top: 9px;
+    transition: 0.6s;
+}
+.mdbtn2:hover{
+    background-color:#1ce781b8;
+}
+.link{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.link a{
+    color: white;
+    padding: 20px;
+}
+.mlink{
+   font-size: 15px;
+}
+.pt2{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+}
+.uppr{
+    width: 100%;
+    color: white;
+    text-align: center;
+}
+.pgreen{
+    color:#1ce783;
+    font-weight: 600;
+}
+.uppr h1{
+    font-size: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.phead{
+    font-size: 20px;
+    width: 700px;
+    margin: 0px auto;
+}
+.imgsection{
+    width: 100%;
+    display: flex;
+    gap: 20px;
+    margin-top: 50px;
+    justify-content: center;
+}
+.img1{
+    position: relative;
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(https://cnbl-cdn.bamgrid.com/assets/1fe40561415a61a95726ada4467fc374fa6f9667028c0d249d8c2c594160777e/original);
+    width: 300px;
+    height: 450px;
+    border-radius: 9px;
+    background-size: cover;
+    border: 4px solid black;
+    transition: 0.4s;
+}
+.img1:hover{
+    border:4px solid grey ;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(https://cnbl-cdn.bamgrid.com/assets/1fe40561415a61a95726ada4467fc374fa6f9667028c0d249d8c2c594160777e/original);
+}
+.img2{
+    position: relative;
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(https://cnbl-cdn.bamgrid.com/assets/8c630a19daa8615918152082839724f4dab6538939ba7d3bb45f8faa97acf1b9/original);
+    background-size: cover;
+    width: 300px;
+    border-radius: 9px;
+    border: 4px solid black;
+    transition: 0.4s;
+}
+.img2:hover{
+    border:4px solid grey ;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(https://cnbl-cdn.bamgrid.com/assets/8c630a19daa8615918152082839724f4dab6538939ba7d3bb45f8faa97acf1b9/original);
+}
+.img3{
+    position: relative;
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(https://cnbl-cdn.bamgrid.com/assets/89cea7fd1cb42712c4aeb2d6a9629f9c76a12691359f8feef14b2f93eddfe46c/original);
+    background-size: cover;
+    width: 300px;
+    border-radius: 9px;
+    border: 4px solid black;
+    transition: 0.4s;
+}
+.img3:hover{
+    border:4px solid grey ;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(https://cnbl-cdn.bamgrid.com/assets/89cea7fd1cb42712c4aeb2d6a9629f9c76a12691359f8feef14b2f93eddfe46c/original);
+}
+.img4{
+    position: relative;
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(https://cnbl-cdn.bamgrid.com/assets/4bae266f4178c145a7285dd09aafff4bc40a8e463cbcee1a8b3f27fb3f7a42ba/original);
+    background-size: cover;
+    width: 300px;
+    border-radius: 9px;
+    border: 4px solid black;
+    transition: 0.4s;
+}
+.img4:hover{
+    border:4px solid grey ;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(https://cnbl-cdn.bamgrid.com/assets/4bae266f4178c145a7285dd09aafff4bc40a8e463cbcee1a8b3f27fb3f7a42ba/original);
+}
+.info{
+    position: absolute;
+    color: white;
+    top: 20px;
+    left: 15px;
+}
+.imgsection p{
+    color: white;
+    font-size: 17px;
+    font-weight: 700;
+}
+.imgsection h1{
+    position: absolute;
+    color: white;
+    font-size: 25px;
+    width: 160px;
+}
+.mark{
+    position: absolute;
+    bottom: -20px;
+    font-size: 11px;
+    font-weight: 10;
+    color:gray;
+}
+.pt3{
+    width: 100%;
+    height: 75vh;
+    background-color: black;
+    color: white;
+    text-align: center;
+    position: relative;
+}
+.midsec{
+    position: absolute;
+    left: 38%;
+    top: 36%;
+    transform: translate(-31%,-43%);
+}
+.pgr{
+    color: #1ce783;
+    font-size: 13px;
+    font-weight: 600;
+}
+.midsec h1{
+    font-size: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.phd{
+    font-size: 18px;
+}
+.greytone{
+    font-size: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: gray;
+}
+.midsec a{
+    color: rgb(205, 205, 205);
+    font-weight: 700;
+}
+.ri-arrow-down-s-line{
+    padding-top: 20px;
+    font-size: 30px;
+    animation-name: up;
+    animation-duration:1s;
+    position: absolute;
+    left: 50%;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes up{
+    to{
+        margin-top: 15px;
+    }
+}
+.pt4{
+   width: 100%;
+   height: 90vh;
+   background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0)),url(https://cnbl-cdn.bamgrid.com/assets/b8c6dfb74d0a755e8df205721c87b1f8b74821b4229c78492ecca29a2635db9e/original);
+   background-size: cover;
+}
+.mainbox{
+    width: 400px;
+    margin-left: 200px;
+    padding-top: 175px;
+}
+.navigation{
+    display: flex;
+    gap: 20px;
+    color:gray;
+    font-size: 10px;
+    font-weight: 700;
+    transition: 0.6s;
+}
+.navigation:hover{
+    color: rgba(104, 103, 103, 0.764);
+}
+.brdp{
+    color: rgb(254, 251, 251);
+    border-bottom: 5px solid white;
+    padding-bottom: 5px;
+}
+.heading h1{
+    color: white;
+    font-size: 50px;
+    font-weight: 700;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.minicontent p{
+    color: rgb(252, 252, 252);
+    margin-bottom: 20px;
+}
+.roundimg{
+    display: flex;
+    /* justify-content: center; */
+    gap: 20px;
+}
+.rndimg{
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border-radius: 50px;
+    margin-bottom: 20px;
+}
+.rndimg img{
+    width: 45px;
+    margin: 10px auto;
+    margin-left: 3px;
+}
+.lastword{
+    color: rgb(195, 191, 191);
+    font-size: 9px;
+}
+.lastword a{
+    color: rgb(221, 218, 218);
+}
+.pt5{
+    width: 100%;
+    height: 152vh;
+    background-color: black;
+    color: white;
+}
+.plan{
+    width: 80vw;
+    height: 240px;
+    border-bottom: 1px solid gray;
+    margin: 0px auto;
+    text-align: center;
+}
+.plan h1{
+    font-size: 49px;
+    padding-top: 65px;
+}
+.plan p{
+    font-size: 18px;
+    padding-top: 20px;
+}
+.plan span{
+    font-weight: 800;
+    font-size: 16px;
+    padding-bottom: 20px;
+}
+.stikyprt{
+    width: 80%;
+    height: 220px;
+    border-bottom: 1px solid gray;
+    margin: 0px auto;
+    display: flex;
+    position:sticky;
+    top: 0px;
+   background-color: black;
+}
+.stkyleft{
+    width: 40%;
+    height: 220px;
+    position: relative;
+    display: flex;
+    gap:10px;
+    align-items: center;
+}
+.fst p{
+    font-size: 14px;
+    font-weight: 500;
+}
+.snd{
+    width: 65px;
+    height: 34px;
+    background-color:#424957;;
+    border-radius: 50px;
+    border: 2px solid #424957;
+    position:relative;
+}
+.crcl{
+    width: 35px;
+    height: 35px;
+    border-radius: 50px;
+    background-color: white;
+    position: absolute;
+    top: -2px;
+    left: -2px;
+}
+.trd p{
+    font-size: 14px;
+    font-weight: 500;
+}
+.stkyright{
+    width:30%;
+    height: 220px;
+    display: flex;
+}
+.lside{
+    width: 100%;
+    height: 218px;
+    background-color:#323843;
+}
+.lside .fbtn{
+    width: 110px;
+    font-size: 10px;
+    font-weight: 500;
+    border-radius: 50px;
+    border: none;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    background-color: #1ce783;
+    margin: 20px 7.5vw;
+}
+.lside p{
+    width: 139px;
+   margin: 0px auto;
+   color: gray;
+   font-weight: 500;
+}
+.lside h1{
+    width: 143px;
+    font-size: 18px;
+   
+    margin: 0px auto;
+}
+.pln{
+    background-color: white;
+    width: 260px;
+    border-radius: 6px;
+    height: 50px;
+    font-weight: 700;
+    border: none;
+    margin: 20px 5%;
+    transition: 0.3s;
+}
+.plnn{
+    background-color: white;
+    width: 260px;
+    border-radius: 6px;
+    height: 50px;
+    font-weight: 700;
+    border: none;
+    margin: 20px 5%;
+    transition: 0.3s;
+}
+.pln:hover{
+    background-color: rgba(255, 255, 255, 0.805);
+}
+.rside p{
+    padding-top: 61px;
+    width: 139px;
+   margin: 0px auto;
+   color: gray;
+   font-weight: 500;
+}
+.rside h1{
+    width: 143px;
+    font-size: 18px;
+    margin: 0px auto;
+}
+.navig{
+    width: 80%;
+    border-bottom: 1px solid gray;
+    height: 50px;
+    margin: 0px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 17.5px;
+    font-weight: 400;
+}
+.navig .pg{
+    width: 290px;
+
+}
+.navig img{
+    width: 20px;
+    height: 20px;
+}
+.navig .bar{
+    width: 17px;
+    height: 1.7px;
+    background-color: rgb(215, 210, 210);
+}
+.navig2{
+    width: 80%;
+    border-bottom: 1px solid gray;
+    height: 80px;
+    margin: 0px auto;
+}
+.navig2 p{
+    width: 390px;
+    font-size: 12px;
+}
+.navig3{
+    width: 80%;
+    border-bottom: 1px solid gray;
+    height: 60px;
+    margin: 0px auto;
+    text-align: center;
+    padding-top:20px ;
+}
+.navigg{
+    width: 80%;
+    border-bottom: 1px solid gray;
+    height: 50px;
+    margin: 0px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 17.5px;
+    font-weight: 400;
+}
+.footer{
+    width: 100%;
+    height: 85vh;
+    background-color: #f6f7f8;
+    color:  #7e7f81;
+    
+    text-decoration: none;
+}
+.up{
+    display: flex;
+    flex-wrap:wrap;
+    gap: 118px;
+    padding: 70px 125px;
+    align-items: center;
+}
+.up ul{
+    list-style-type: none;
+    width: 150px;
+}
+.up h4{
+    color: black;
+}
+.down{
+    width: 80%;
+    border-top: 1.5px solid rgb(194, 193, 193);
+    padding-top: 5px;
+    margin: 0px auto;
+}
+.iconsec i{
+    font-size: 25px;
+    color:  #697181;
+    padding-right: 20px;
+}
+.ftrlnk span{
+    padding-right:25px;
+    padding-top: 15px;
+}
+.ftrlnk{
+    padding-top: 15px;
+    line-height: 180%;
+}
+.uprs{
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:586px){
+    .pt1{
+        background-image:linear-gradient(to right, rgba(0,0,0,0.8)8%,rgba(0,0,0,0.1)70%),url(https://cnbl-cdn.bamgrid.com/assets/62ed936344e6ffbac48c896b2bd327fe171521dd941b6ddc8402e2eae50116fc/original);
+        width: 100%;
+        height: 100vh;
+        background-size: cover;
+    }
+    .mid1{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-items: center;
+        padding-top: 1vh;
+        text-align: center;
+    }
+    .mleft p{
+        color: #1ce783;
+        font-size: 13px;
+        font-weight: 700;
+        padding-bottom: 35px;
+    }
+    .mleft img{
+      width: 125px;
+    }
+    .mleft .mplan{
+        color:white;
+        font-size: 22px;
+        font-weight: 700;
+        width: 300px;
+    }
+    .mdbtn{
+        color: black;
+        background-color: #1ce783;
+        width: 220px;
+        font-size: 15px;
+        font-weight: 500;
+        height: 40px;
+        border-radius: 3px;
+        border: none;
+        transition: 0.6s;
+    }
+    .mdbtn2{
+        color: black;
+        background-color: #1ce783;
+        width: 220px;
+        font-size: 15px;
+        font-weight: 500;
+        height: 40px;
+        border-radius: 3px;
+        border: none;
+        margin-top: 9px;
+        transition: 0.6s;
+    }
+    .link a{
+        color: white;
+        padding: 10px;
+    }
+
+    .roundimg{
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .pt2{
+        width: 100%;
+        height: 120vh;
+        background-color: black;
+    }
+    .uppr{
+        width: 100%;
+        color: white;
+        text-align: center;
+    }
+    .pgreen{
+        color:#1ce783;
+        font-weight: 600;
+        padding-top: 15px;
+    }
+    .uppr h1{
+        font-size: 50px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .phead{
+        font-size: 20px;
+        width:auto;
+    }
+    .imgsection{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        margin-top: 30px;
+        justify-content:center;
+    }
+    .img1{
+        position: relative;
+        background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(https://cnbl-cdn.bamgrid.com/assets/1fe40561415a61a95726ada4467fc374fa6f9667028c0d249d8c2c594160777e/original);
+        width: 45vw;
+        height: 39vh;
+        border-radius: 9px;
+        background-size: cover;
+        border: 4px solid black;
+        transition: 0.4s;
+    }
+ 
+    .img2{
+        position: relative;
+        background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(https://cnbl-cdn.bamgrid.com/assets/8c630a19daa8615918152082839724f4dab6538939ba7d3bb45f8faa97acf1b9/original);
+        background-size: cover;
+        width:45vw;
+        height: 39vh;
+        border-radius: 9px;
+        border: 4px solid black;
+        transition: 0.4s;
+    }
+    
+    .img3{
+        position: relative;
+        background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(https://cnbl-cdn.bamgrid.com/assets/89cea7fd1cb42712c4aeb2d6a9629f9c76a12691359f8feef14b2f93eddfe46c/original);
+        background-size: cover;
+        width: 45vw;
+        height: 39vh;
+        border-radius: 9px;
+        border: 4px solid black;
+        transition: 0.4s;
+    }
+  
+    .img4{
+        position: relative;
+        background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(https://cnbl-cdn.bamgrid.com/assets/4bae266f4178c145a7285dd09aafff4bc40a8e463cbcee1a8b3f27fb3f7a42ba/original);
+        background-size: cover;
+        width: 45vw;
+        height: 39vh;
+        border-radius: 9px;
+        border: 4px solid black;
+        transition: 0.4s;
+    }
+  
+    .info{
+        position: absolute;
+        color: white;
+        top: 15px;
+        left: 10px;
+    }
+    .imgsection p{
+        color: white;
+        font-size: 4vw;
+        font-weight: 500;
+    }
+    .imgsection h1{
+        position: absolute;
+        color: white;
+        font-size: 6vw;
+        width: 160px;
+    }
+    .mark{
+        position: absolute;
+        bottom: -35px;
+        font-size: 11px;
+        font-weight: 10;
+        color:gray;
+    }
+    .pt3{
+        width:100%;
+        height: 95vh;
+        background-color: black;
+        color: white;
+        position: unset;
+    }
+    .midsec{
+     text-align: center;
+     position: unset;
+    transform: none;
+    padding-top: 95px;
+    }
+    .pgr{
+        color: #1ce783;
+        font-size: 13px;
+        font-weight: 600;
+    }
+    .midsec h1{
+        font-size: 40px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .phd{
+        font-size: 18px;
+    }
+    .greytone{
+        font-size: 10px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: gray;
+    }
+    .midsec a{
+        color: rgb(205, 205, 205);
+        font-weight: 700;
+    }
+    .pt4{
+        width: 100%;
+        height: 116vh;
+        background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0)),url(https://cnbl-cdn.bamgrid.com/assets/58fb35f9ec229ad8366a5c95a78003e1406315670a6882aa5d0bf1c34a72fe91/original);
+        background-size: cover;
+        position: relative;
+     }
+     .mainbox{
+        width: 300px;
+        margin: 0px;
+        position: absolute;
+        top: 13%;
+        left: 52%;
+        transform: translate(-50%,-50%);
+        text-align: center;
+    }
+    .navigation{
+        padding-left: 20px;
+    }
+    .heading h1{
+        padding-top: 20px;
+    }
+    .pt5{
+        width: 100%;
+        /* height: vh; */
+        background-color: black;
+        color: white;
+    }
+    .plan{
+        width: 100%;
+        height: 220px;
+        border-bottom: 1px solid gray;
+        margin: 0px auto;
+        text-align: center;
+    }
+    .plan h1{
+        font-size: 35px;
+        padding-top: 55px;
+    }
+    .plan p{
+        font-size: 18px;
+        padding-top: 20px;
+    }
+    .plan span{
+        font-weight: 800;
+        font-size: 16px;
+        padding-bottom: 20px;
+    }
+    .stikyprt{
+        width: 100%;
+        height: 99px;
+        border-bottom: 1px solid gray;
+        margin: 0px auto;
+        display:block;
+        /* padding-left: 5px; */
+        background-color: black;
+    }
+    .stkyleft{
+        width: 100%;
+        height: 100px;
+        /* position: sticky;
+        top: 0px; */
+        display:flex;
+        /* gap:40px; */
+        /* justify-content:space-between; */
+        align-items: center;
+    }
+    .snd{
+        width: 55px;
+        height: 29px;
+        background-color:#424957;;
+        border-radius: 50px;
+        border: 2px solid #424957;
+        position:relative;
+    }
+    .crcl{
+        width: 29px;
+        height: 29px;
+        border-radius: 50px;
+        background-color: white;
+        position: absolute;
+        top: -2px;
+        left: -2px;
+    }
+    .trd{
+       position: absolute;
+       right: 5px;
+    }
+    .trd p{
+        font-size: 14px;
+        font-weight: 500;
+    }
+    .trd img{
+        width: 150px;
+    }
+    .stkyright{
+        width:100%;
+        height: 202px;
+        /* display: flex; */
+        border-bottom: 1px solid gray;
+        background-color: black;
+    }
+    .lside{
+        width: 50%;
+        height: 200px;
+        background-color:black;
+        border-right:1px solid gray ;
+   
+    }
+    .rside{
+        width: 50%;
+        height: 200px;
+        background-color:black ;
+    }
+    .lside .fbtn{
+        width: 110px;
+        font-size: 10px;
+        font-weight: 500;
+        border-radius: 50px;
+        border: none;
+        padding-top: 4px;
+        padding-bottom: 4px;
+        background-color: #1ce783;
+        margin: 20px 5vw;
+    }
+    .lside p{
+        width: 139px;
+       /* margin: 0px auto; */
+       color: gray;
+       font-weight: 500;
+       margin-left: 5vw;
+    }
+    .lside h1{
+        width: 143px;
+        font-size: 18px;
+       /* position: relative; */
+        /* margin: 0px auto; */
+        margin-left: 5vw;
+    }
+    .pln{
+        background-color: white;
+        width: 140px;
+        border-radius: 6px;
+        height: 40px;
+        font-weight: 700;
+        border: none;
+        position: absolute;
+        margin-left: 5vw;
+        /* margin: 20px 20px; */
+        transition: 0.3s;
+    }
+    .plnn{
+        background-color: white;
+        width: 140px;
+        border-radius: 6px;
+        height: 40px;
+        font-weight: 700;
+        border: none;
+        margin-top: 20px;
+        margin-left: 5vw;
+        transition: 0.3s;
+    }
+    .pln:hover{
+        background-color: rgba(255, 255, 255, 0.805);
+    }
+    .rside p{
+        padding-top: 61px;
+        width: 139px;
+       /* margin: 0px auto; */
+       margin-left: 5vw;
+       color: gray;
+       font-weight: 500;
+    }
+    .rside h1{
+        width: 143px;
+        font-size: 18px;
+        margin: 0px auto;
+        margin-left: 5vw;
+    }
+
+    .navig{
+        width: 100%;
+        border-bottom: 1px solid gray;
+        height: 50px;
+        margin: 0px auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        font-size: 17.5px;
+        font-weight: 400;
+    }
+    .navigg{
+        width: 100%;
+        border-bottom: 1px solid gray;
+        height: 50px;
+        margin: 0px auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        font-size: 17.5px;
+        margin-top: 209px;
+        font-weight: 400;
+    }
+    .navi{
+        width: 100%;
+        height: 50vh;
+    }
+    .navig .pg{
+        width: 290px;
+    
+    }
+    .navig img{
+        width: 20px;
+        height: 20px;
+    }
+    .navig .bar{
+        width: 17px;
+        height: 1.7px;
+        background-color: rgb(215, 210, 210);
+    }
+    .navig2{
+        width: 100%;
+        border-bottom: 1px solid gray;
+        height: 80px;
+        margin: 0px auto;
+    }
+    .navig2 p{
+        width: 324px;
+        font-size: 12px;
+    }
+    .navig3{
+        width: 100%;
+        border-bottom: 1px solid gray;
+        height: 60px;
+        margin: 0px auto;
+        text-align: center;
+        padding-top:20px ;
+    }
+    
+    .footer .up{
+        display: none;
+    }
+    .uprs{
+        width: 80%;
+        margin: 0px auto;
+        padding-top: 25px;
+        position: relative;
+    }
+    .uprs h4{
+        height: 80px;
+        border-bottom: 1.5px solid grey;
+        padding-top: 25px;
+    }
+    .uprs span{
+        position: absolute;
+        right: 35px;
+        transition: none;
+    }
+    .ri-arrow-down-s-fill{
+        font-size: 25px;
+    }
+    
+    .pg{
+        padding-left: 7px;
+    }
+    .fst p{
+        padding-left: 5px;
+    }
+    .fst svg{
+        padding-left: 5px;
+    }
+    .navig2 p{
+        padding-left: 5px;
+    }
+    .footer{
+        width: 100%;
+        height: 60vh;
+        background-color: #f6f7f8;
+        color:  #7e7f81;
+        
+        text-decoration: none;
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+}
